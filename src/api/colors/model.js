@@ -8,8 +8,7 @@ const colorsSchema = new Schema(
     rgbValue: [{ type: Number, required: true }],
     hexValue: { type: String, required: true },
     name: { type: String, required: false },
-    baseColor: { type: String, required: true },
-    categories: [{ type: String, enum: ["Pastel", "Neutral", "Bright", "Cool", "Warm"], required: false }]
+    baseColor: { type: String, required: true }
   },
   {
     timestamps: true
